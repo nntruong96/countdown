@@ -21,6 +21,7 @@ function App() {
           value={time}
           onChange={handleChange}
           placeholder="Enter seconds"
+          type="number"
         />
         <button onClick={onStart}>Start</button>
       </div>
